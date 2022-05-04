@@ -1,0 +1,42 @@
+Multiplicação de matriz(3,3) por vetor (3,1)
+
+
+   A1,1*b1 + A1,2*b2 + A1,3*b3
+   A2,1*b1 + A2,2*b2 + A2,3*b3
+   A3,1*b1 + A3,2*b2 + A3,3*b3
+
+
+   0*-2 + 12*1 + 7*-1 =  5
+  -1*-2 + -1*1 + -1*7 = -6
+  11*-2 +  5*1 +  5*7 = 18
+
+
+
+
+in: for i in range(linhas_a):
+        print(A[0][i])              # i retorna todas as colunas da 1° linha
+out: 0
+     12
+     -1
+
+
+in: for j in range (linhas b): 
+	 print (b[i][0]) -> retorna todas as linhas da 1° coluna
+out: -2
+     1
+     7
+
+se eu fizer A[0][i] + b[j][0] deve retornar a soma dos valores !!! não funciona
+!!!!! "too many values to unpack"
+
+
+AULA - COPIANDO (precisa de for duplo)
+
+N,M = A.shape #duas variáveis para receber o shape de A (N - linhas, M - colunas)
+
+#para calcular usando um loop, primeiro vou andar nas LINHAS e depois nas COLUNAS
+
+for i in range(N):
+	for j in range(M):
+		y[i] = y[i] + A[i][j]*x[j] #conta para multiplicar as matrizes
+y

@@ -1,0 +1,15 @@
+Instituto Nacional de Meteorologia - INMET	
+Meses	Chuva em (mm)
+Janeiro/2021	74.2
+Fevereiro/2021	121.6
+Março/2021	53.8
+Abril/2021	133
+Maio/2021	125.8
+Junho/2021	40.4
+Julho/2021	26.6
+Agosto/2021	0
+Setembro/2021	0
+Outubro/2021	0
+Novembro/2021	0
+Dezembro/2021	0
+
